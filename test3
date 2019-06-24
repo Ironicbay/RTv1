@@ -1,0 +1,68 @@
+camera
+	origin = 100.0 0.0 0.0
+
+focus
+	origin = 0.0 0.0 0.0
+
+light
+	origin = 50 50 50
+	ambient = 0.99
+	diffuse = 0.99
+	specular = 0.99
+end_light
+
+light
+	origin = 50 -50 50
+	ambient = 0.99
+	diffuse = 0.99
+	specular = 0.99
+end_light
+
+object
+	type = sphere
+	origin = 0.0 0.0 0.0
+	radius = 16.0
+	material = silver
+end_object
+
+object
+	type = sphere
+	origin = 24.0 0.0 0.0 
+	radius = 8.0
+	material = red_plastic
+end_object
+
+object
+	type = sphere
+	origin = -24.0 0.0 0.0
+	radius = 8.0
+	material = red_plastic
+end_object
+
+object
+	type = sphere
+	origin = 0.0 24.0 0.0
+	radius = 8.0
+	material = emerald
+end_object
+
+object
+	type = sphere
+	origin = 0.0 -24.0 0.0
+	radius = 8.0
+	material = emerald
+end_object
+
+object
+	type = sphere
+	origin = 0.0 0.0 24.0
+	radius = 8.0
+	material = turquoise
+end_object
+
+object
+	type = sphere
+	origin = 0.0 0.0 -24.0
+	radius = 8.0
+	material = turquoise
+end_object

@@ -1,0 +1,26 @@
+camera
+	origin = 50 0 10
+
+focus
+	origin = 0 0 0
+
+light
+	origin = 50 50 50
+end_light
+
+object
+	type = planes
+end_object
+
+object
+	type = sphere
+end_object
+
+object
+	type = cone
+	rotation = 0 0 0
+end_object
+
+object
+	type = cylinder
+end_object

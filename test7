@@ -1,0 +1,122 @@
+camera
+	origin = 70.0 -30.0 30.0
+
+focus
+	origin = 0.0 0.0 0.0
+
+light
+	origin = 0.0 -99.0 99.0
+	ambient = 0.4
+	diffuse = 0.6
+	specular = 0.99
+end_light
+
+light
+	origin = 99 99.0 99.0
+	ambient = 0.4
+	diffuse = 0.6
+	specular = 0.99
+end_light
+
+object
+	type = plane
+	origin = 0.0 0.0 100.0
+	normal = 0.0 0.0 1.0
+	material = red_plastic
+end_object
+
+object
+	type = plane
+	origin = 0.0 -150.0 0.0
+	normal = 0.0 1.0 0.0
+	color = 0 30 30
+	material = red_plastic
+end_object
+
+object
+	type = plane
+	origin = 0.0 150.0 0.0
+	normal = 0.0 -1.0 0.0
+	material = red_plastic
+end_object
+
+object
+	type = plane
+	origin = 0.0 0.0 0.0
+	normal = 0.0 0.0 1.0
+	material = red_plastic
+end_object
+
+object
+	type = plane
+	origin = -150.0 0.0 0.0
+	normal = 1.0 0.0 0.0
+	material = red_plastic
+end_object
+
+object
+	type = sphere
+	origin = 0.0 0.0 0.0
+	radius = 25.0
+	material = gold
+end_object
+
+object
+	type = sphere
+	origin = 20.0 50.0 5.0 
+	radius = 30.0
+	material = silver
+end_object
+
+object
+	type = sphere
+	origin = 10.0 -30.0 -20.0
+	radius = 30.0
+	material = emerald
+end_object
+
+object
+	type = sphere
+	origin = -15.0 10.0 10.0
+	radius = 20.0
+	material = black_rubber
+end_object
+
+object
+	type = sphere
+	origin = -20.0 0.0 0.0
+	radius = 10.0
+	material = obsidian
+end_object
+
+object
+	type = cylinder
+	origin = -15.0 0.0 0.0
+	direction = 0.0 0.0 100.0
+	radius = 5.0
+	material = white_rubber
+end_object
+
+object
+	type = cylinder
+	origin = 15.0 0.0 0.0
+	direction = 0.0 1.0 1.0
+	radius = 5.0
+	material = bronze
+end_object
+
+object
+	type = cylinder
+	origin = 0.0 0.0 0.0
+	direction = 1.0 0.0 0.0
+	radius = 5.0
+	material = black_rubber
+end_object
+
+object
+	type = cone
+	origin = 0.0 -20.0 50.0
+	direction = 0.0 0.0 1.0
+	angle = 15.0
+	material = turquoise
+end_object

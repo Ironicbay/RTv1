@@ -1,0 +1,23 @@
+camera
+	origin = 30.0 -10.0 20.0
+
+focus
+	origin = 0.0 0.0 0.0
+
+light
+	origin = 70 10 50
+end_light
+
+object
+	type = sphere
+	origin = 0.0 0.0 0.0
+	radius = 8.0
+	material = emerald
+end_object
+
+object
+	type = plane
+	origin = 0.0 0.0 -10.0
+	normal = 0.0 0.0 1.0
+	material = white_rubber
+end_object

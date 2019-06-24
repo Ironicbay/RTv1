@@ -1,0 +1,142 @@
+camera
+	origin = 200.0 0.0 0.0
+
+focus
+	origin = 0.0 0.0 0.0
+
+light
+	origin = 100 50 50
+	ambient = 0.10
+	specular = 0.79
+	diffuse = 0.99
+end_light
+
+object
+	type = sphere
+	origin = 0.0 65.0 0.0
+	radius = 50.0
+	material = white_rubber
+	color = 255 255 255
+end_object
+
+object
+	type = sphere
+	origin = 23.0 58.0 0.0 
+	radius = 30.0
+	material = turquoise
+end_object
+
+object
+	type = sphere
+	origin = 40.0 53.0 0.0
+	radius = 15.0
+	color = 1 1 1
+	material = black_rubber
+end_object
+
+object
+	type = sphere
+	origin = 0.0 -65.0 0.0
+	radius = 50.0
+	color = 255 255 255
+	material = white_rubber
+end_object
+
+object
+	type = sphere
+	origin = 23.0 -58.0 0.0 
+	radius = 30.0
+	color = 0 0 255
+	material = turquoise
+end_object
+
+object
+	type = sphere
+	origin = 40.0 -53.0 0.0
+	radius = 15.0
+	color = 1 1 1
+	material = black_rubber
+end_object
+
+object
+	type = plane
+	origin = -100.0 0.0 0.0
+	normal = 1.0 0.0 0.0
+	material = red_plastic
+end_object
+
+object
+	type = cylinder
+	origin = -100 0 0
+	direction = 0 1 1
+	radius = 5
+	material = red_plastic
+end_object
+
+object
+	type = cylinder
+	origin = -100 0 0
+	direction = 0 1 -1
+	radius = 5
+	material = red_plastic
+end_object
+
+object
+	type = plane
+	origin = 0.0 0.0 -200.0
+	normal = 0.0 1.0 1.0
+	material = red_plastic
+end_object
+
+object
+	type = plane
+	origin = 0.0 0.0 -200.0
+	normal = 0.0 -1.0 1.0
+	material = red_plastic
+end_object
+
+object
+	type = plane
+	origin = 0.0 0.0 200.0
+	normal = 0.0 1.0 1.0
+	material = red_plastic
+end_object
+
+object
+	type = plane
+	origin = 0.0 0.0 200.0
+	normal = 0.0 -1.0 1.0
+	material = red_plastic
+end_object
+
+object
+	type = cylinder
+	origin = 0 100 100
+	direction = 1 0 0
+	radius = 5
+	material = red_plastic
+end_object
+
+object
+	type = cylinder
+	origin = 0 100 -100
+	direction = 1 0 0
+	radius = 5
+	material = red_plastic
+end_object
+
+object
+	type = cylinder
+	origin = 0 -100 100
+	direction = 1 0 0
+	radius = 5
+	material = red_plastic
+end_object
+
+object
+	type = cylinder
+	origin = 0 -100 -100
+	direction = 1 0 0
+	radius = 5
+	material = red_plastic
+end_object

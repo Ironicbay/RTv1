@@ -1,0 +1,27 @@
+camera
+	origin = 50 0 10
+
+focus
+	origin = 0 0 10
+
+light
+	origin = 30.0 30.0 30.0
+	ambient = 0.4
+	diffuse = 0.6
+	specular = 0.99
+end_light
+
+object
+	type = cone
+	origin = 0.0 0.0 10.0
+	direction = 0.0 0.0 1.0
+	angle = 15.0
+	material = brass
+end_object
+
+object
+	type = plane
+	origin = 0.0 0.0 -10.0
+	normal = 0.0 0.0 1.0
+	material = red_plastic
+end_object
