@@ -6,7 +6,7 @@
 /*   By: acostaz <acostaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/13 10:44:37 by acostaz           #+#    #+#             */
-/*   Updated: 2019/06/13 16:16:04 by acostaz          ###   ########.fr       */
+/*   Updated: 2019/06/24 14:11:53 by acostaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,9 +40,9 @@ void	default_cone(t_cone *cone)
 
 void	default_light(t_light_list *light)
 {
-	light->amb = 0.3;
-	light->diff = 0.6;
-	light->spec = 1.0;
+	light->amb = 0.7;
+	light->diff = 0.01;
+	light->spec = 0.0;
 	light->color.channel[0] = 255;
 	light->color.channel[1] = 255;
 	light->color.channel[2] = 255;

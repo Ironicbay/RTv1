@@ -6,7 +6,7 @@
 /*   By: acostaz <acostaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/13 14:34:59 by acostaz           #+#    #+#             */
-/*   Updated: 2019/06/21 15:50:56 by acostaz          ###   ########.fr       */
+/*   Updated: 2019/06/24 14:39:16 by acostaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -295,10 +295,11 @@ void					make_cone(t_env *e, char **line);
 void					make_sphere(t_env *e, char **line);
 void					make_cylinder(t_env *e, char **line);
 void					make_plane(t_env *e, char **line);
-void					make_light(t_env *e);
+void					make_light(t_env *e, char **line);
 void					add_coords(t_point *point, char *line);
 void					add_color(t_color *color, char *line);
 void					add_normal(t_vect *normal, char *line);
+void					if_no_lights(t_env *e);
 void					choose_material(t_env *e, t_obj_list *obj, char *str);
 void					check_value_sizes(t_env *e);
 

@@ -6,7 +6,7 @@
 /*   By: acostaz <acostaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/13 15:02:40 by acostaz           #+#    #+#             */
-/*   Updated: 2019/06/24 13:51:23 by acostaz          ###   ########.fr       */
+/*   Updated: 2019/06/24 14:20:45 by acostaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ void				close_program(t_env *e, int err)
 	if (err == 3)
 		ft_error("One or more values too big");
 	if (err == 4)
-		ft_error("Object not well formated");
+		ft_error("Input file not well formated");
 }
 
 void				list_del(t_env *e, int err)

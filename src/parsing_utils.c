@@ -6,11 +6,21 @@
 /*   By: acostaz <acostaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/12 17:23:32 by acostaz           #+#    #+#             */
-/*   Updated: 2019/06/13 15:27:06 by acostaz          ###   ########.fr       */
+/*   Updated: 2019/06/24 14:17:49 by acostaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/rtv1.h"
+
+void				if_no_lights(t_env *e)
+{
+	if (!(e->light_list))
+	{
+		list_light_append(e);
+		default_light(e->light_list);
+		ft_putendl("No lights specified");
+	}
+}
 
 void				add_coords(t_point *point, char *line)
 {
