@@ -6,7 +6,7 @@
 /*   By: acostaz <acostaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/13 14:34:59 by acostaz           #+#    #+#             */
-/*   Updated: 2019/06/24 14:39:16 by acostaz          ###   ########.fr       */
+/*   Updated: 2019/06/24 14:56:48 by acostaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -302,6 +302,7 @@ void					add_normal(t_vect *normal, char *line);
 void					if_no_lights(t_env *e);
 void					choose_material(t_env *e, t_obj_list *obj, char *str);
 void					check_value_sizes(t_env *e);
+void					free_line_and_exit(t_env *e, char **line);
 
 /*
 ***********************************default.c************************************

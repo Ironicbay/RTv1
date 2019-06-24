@@ -6,9 +6,9 @@ focus
 
 light
 	origin = 30.0 30.0 30.0
-	ambient = 0.4
-	diffuse = 0.6
-	specular = 0.99
+	ambient = 1230.4
+	diffuse = 022.6
+	specular = 03333.99
 end_light
 
 object
