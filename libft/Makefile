@@ -6,7 +6,7 @@
 #    By: acostaz <acostaz@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/04/11 16:13:36 by acostaz           #+#    #+#              #
-#    Updated: 2019/06/19 16:02:39 by acostaz          ###   ########.fr        #
+#    Updated: 2019/06/25 13:29:18 by acostaz          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,6 +24,7 @@ SRC_NAME = ft_bzero.c \
 		   ft_error.c \
 		   ft_putchar.c \
 		   ft_putendl.c \
+		   ft_putendl_fd.c \
 		   ft_putnbr.c \
 		   ft_putnbrendl.c \
 		   ft_putstr.c \

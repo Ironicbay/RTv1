@@ -1,19 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_error.c                                         :+:      :+:    :+:   */
+/*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acostaz <acostaz@student.42.fr>            +#+  +:+       +#+        */
+/*   By: acostaz <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/02/22 14:27:46 by acostaz           #+#    #+#             */
-/*   Updated: 2019/06/25 12:26:55 by acostaz          ###   ########.fr       */
+/*   Created: 2018/11/17 09:19:21 by acostaz           #+#    #+#             */
+/*   Updated: 2018/11/30 12:37:33 by acostaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/libft.h"
+#include "libft.h"
+#include <unistd.h>
 
-void		ft_error(char *exit_message)
+void	ft_putendl_fd(char const *s, int fd)
 {
-	ft_putendl_fd(exit_message, 2);
-	exit(EXIT_FAILURE);
+	write(fd, s, ft_strlen(s));
+	write(fd, "\n", 1);
 }

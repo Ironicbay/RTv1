@@ -6,7 +6,7 @@
 /*   By: acostaz <acostaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/12 17:23:32 by acostaz           #+#    #+#             */
-/*   Updated: 2019/06/24 14:17:49 by acostaz          ###   ########.fr       */
+/*   Updated: 2019/06/25 13:39:59 by acostaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,15 @@ void				if_no_lights(t_env *e)
 	if (!(e->light_list))
 	{
 		list_light_append(e);
-		default_light(e->light_list);
+		e->light_list->amb = 0.4;
+		e->light_list->diff = 0.0;
+		e->light_list->spec = 0.0;
+		e->light_list->color.channel[0] = 255;
+		e->light_list->color.channel[1] = 255;
+		e->light_list->color.channel[2] = 255;
+		e->light_list->origin.x = 50;
+		e->light_list->origin.y = 50;
+		e->light_list->origin.z = 50;
 		ft_putendl("No lights specified");
 	}
 }
